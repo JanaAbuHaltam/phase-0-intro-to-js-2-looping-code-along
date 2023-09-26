@@ -1,12 +1,12 @@
 // Code your solutions in this file
-const array = ["Charlie", "Samip", "Ali"];
-//const birthday = "birthday";
-function writeCards(array){
+const arr = ["A", "B", "C"];
+
+function writeCards(arr){
     let messages =[];
 
-for (let i = 0; i < array.length ; i++) 
+for (let i = 0; i < arr.length ; i++) 
    {
-    const name = array[i];
+    const name = arr[i];
     messages.push(`Thank you, ${name}, for the wonderful surprise gift!`);
 
    }
